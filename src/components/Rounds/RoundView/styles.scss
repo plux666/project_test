@@ -1,0 +1,25 @@
+.rounds-view__main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rounds-view__round {
+  width: 440px;
+  padding: 10px;
+  border: 2px dashed whitesmoke;
+  border-radius: 15px;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rounds-view__timer {
+  display: flex;
+}
+

@@ -1,0 +1,22 @@
+.rounds-list__main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounds-list__container {
+  width: 540px;
+  margin: 30px 0 0 0;
+}
+
+.rounds-list__rounds-container {
+  height: calc(100vh - 170px);
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

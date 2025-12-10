@@ -1,0 +1,21 @@
+.goose__art {
+  user-select: none;
+  cursor: pointer;
+}
+
+.goose__art--disabled {
+  cursor: not-allowed;
+}
+
+.goose__shake {
+  animation: shakeAnim 0.2s;
+}
+
+@keyframes shakeAnim {
+  0% { transform: translate(0); }
+  20% { transform: translate(-3px, 2px); }
+  40% { transform: translate(3px, -2px); }
+  60% { transform: translate(-3px, 1px); }
+  80% { transform: translate(3px, -1px); }
+  100% { transform: translate(0); }
+}
